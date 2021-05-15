@@ -7,7 +7,7 @@ const UserController = require('../controllers/user')
 const { validateBody, validateParam, schemas } = require('../helpers/routerHelpers')
 
 
-routes.route("/getUsers", (req, res) => {
+router.route("/getUsers", (req, res) => {
     
 })
 
